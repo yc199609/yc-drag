@@ -1,0 +1,20 @@
+.root{
+  position: relative;
+  overflow-wrap: break-word;
+}
+.root .dragItem{
+  z-index: 9;
+  display: inline-block;
+}
+.root .blank{
+  width: var(--width);
+  height: var(--height);
+  display: inline-block;
+  vertical-align: top;
+  animation: toBig 0.3s ease-out;
+}
+
+@keyframes toBig {
+  0% {width: 0;}
+  100% { width: var(--width);}
+}

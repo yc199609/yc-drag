@@ -1,0 +1,20 @@
+.YLx_9cJH9-LOgSmSOevGW{
+  position: relative;
+  overflow-wrap: break-word;
+}
+.YLx_9cJH9-LOgSmSOevGW ._28Ht2cPsoCKGRpTgq-I6qc{
+  z-index: 9;
+  display: inline-block;
+}
+.YLx_9cJH9-LOgSmSOevGW ._2DiSac-EJXMLq0GWplVRG1{
+  width: var(--width);
+  height: var(--height);
+  display: inline-block;
+  vertical-align: top;
+  animation: _2oVjawLK_zWPAMMoFs7TVN 0.3s ease-out;
+}
+
+@keyframes _2oVjawLK_zWPAMMoFs7TVN {
+  0% {width: 0;}
+  100% { width: var(--width);}
+}

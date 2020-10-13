@@ -2,29 +2,34 @@
   "name": "yc-drag",
   "version": "0.0.1",
   "description": "多行元素拖拽插件",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "start": "webpack-dev-server --config config/webpack.dev.config.js",
     "build": "webpack --config config/webpack.prod.config.js",
     "pub": "npm run build && npm publish",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "react",
+    "drag"
+  ],
+  "repository": "",
   "author": "yc",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.11.6",
-    "@babel/core": "^7.11.6",
-    "@babel/preset-env": "^7.11.5",
-    "@babel/preset-react": "^7.10.4",
-    "babel-loader": "^8.1.0",
-    "css-loader": "^4.3.0",
-    "mini-css-extract-plugin": "^1.0.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "style-loader": "^2.0.0",
-    "webpack": "^5.0.0",
-    "webpack-cli": "^4.0.0",
-    "webpack-dev-server": "^3.11.0",
-    "webpack-merge": "^5.2.0"
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "style-loader": "^1.0.0",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.8.0",
+    "webpack-merge": "^4.2.2"
   }
 }
