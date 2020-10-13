@@ -13,7 +13,7 @@
     "react",
     "drag"
   ],
-  "repository": "",
+  "repository": "https://github.com/yc199609/yc-drag",
   "author": "yc",
   "license": "ISC",
   "devDependencies": {
