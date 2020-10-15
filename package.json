@@ -14,7 +14,7 @@
     "drag"
   ],
   "repository": "https://github.com/yc199609/yc-drag",
-  "author": "yc",
+  "author": "yc199609",
   "license": "ISC",
   "devDependencies": {
     "@babel/cli": "^7.5.5",
@@ -31,5 +31,8 @@
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.8.0",
     "webpack-merge": "^4.2.2"
+  },
+  "dependencies": {
+    "err": "^2.1.12"
   }
 }
