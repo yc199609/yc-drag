@@ -1,6 +1,6 @@
 {
   "name": "yc-drag",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "多行元素拖拽插件",
   "main": "lib/index.js",
   "scripts": {

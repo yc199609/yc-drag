@@ -8,7 +8,7 @@
 
 ## 样例
 
-![](.\example.gif)
+![](http://great_yc.gitee.io/image/example.gif)
 
 ## 安装
 
